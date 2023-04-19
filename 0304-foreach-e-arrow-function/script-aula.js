@@ -1,11 +1,11 @@
-// const imgs = document.querySelectorAll('img');
+// const imgs = document.querySelectorAll('img'); mostra todas as imagens
 
-// imgs.forEach(function(item, index, array){
+// imgs.forEach(function(item, index, array){ ///////mostra todos os itens com seus respectivos indices e seu array
 //   // console.log(item, index, array)
 // });
 
 const titulos = document.getElementsByClassName('titulo');
-const titulosArray = Array.from(titulos);
+const titulosArray = Array.from(titulos);//transformando em array
 
 // console.log(titulos);
 // console.log(titulosArray);
